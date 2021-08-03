@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+html{scroll-behavior:smooth;}
+/** -------------------------------------------------
+           ------------ header starts--------
+  ---------------------------------------------------**/
+header{
+    background:url("./img/teacher.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.banner-container{
+    height:100vh;
+}
+.banner-contents h1 {
+    font-family: handlee;
+    font-size: 64px;
+    padding: 17px 19px;
+    border-radius: 5px;
+    background: #79797961;
+    color: #f8f8f8ba!important;
+    margin-bottom: 50px;
+}
+.navbar {
+    background: #00000061;
+    padding: 0% 10%;
+}
+a.nav-link{
+    margin:2px 0px;
+    border-radius:6px;
+    padding:15px 20px!important;
+}
+a.nav-link:hover{
+    background:#0000001f;
+    color:white!important;
+}
+.nav-item{text-align:center;}
+
+  /** -------------------------------------------------
+           ------------ section 1 starts--------
+  ---------------------------------------------------**/
+#feturse{
+    padding:5% 8%;
+    background: #e146dc26;
+}
+.feature-item {
+    background-color: #fff;
+    border: 1px solid #b6b6b6;
+    border-radius: 6px;
+    padding: 14px;
+    margin:20px;
+    transition: .4s;
+}
+.feature-item:hover{
+    transform:scale(1.06);
+    background: #ff00c9;
+    border: 0;
+    cursor:pointer;
+    border:none;
+    color: white;
+}
+.icon-style {
+    color: #cc00b3d9;
+    background: #ffffff;
+    font-size: 52px;
+    padding: 5px;
+    padding-top: 10px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
+
+  /** -------------------------------------------------
+     ------------About me section starts--------
+  ---------------------------------------------------**/
+  #about-me{padding:4% 10%;background: #ededed!important;color: black!important;}
+  .section-title{padding:30px 0px;}
+  .section-title h1{
+      /* color:red; */
+      margin-bottom:0px;
+  }
+  .hr-style{
+      border:3px dashed red;
+      border-bottom:none;
+      width:100px;
+      display:block;
+}
+.information p{
+    margin:0;padding:0;
+    font-size:.9rem;
+    font-style:italic;
+    line-height:22px;
+}
+.social-icon{
+    
+    width: 40px;
+        
+    height: 40px;
+        
+    border: 1px solid #8f8f8f;
+        
+    text-align: center;
+        
+    font-size: 28px;
+        
+    padding: 2px;
+        
+    padding-top: 5px;
+        
+    border-radius: 100%;
+        
+    margin-left: 12px;
+        
+    color: white;
+    transition:.4s;
+    }
+    .facebook{background: #3d50b2;}
+    .twitter{background:rgb(0, 140, 255);}
+    .istagram {
+        background: linear-gradient(#b63890,#ec5633,#a327cf);
+    }
+    .facebook:hover{background: #1d3097;}
+    .twitter:hover{background:rgb(24 106 174);}
+    .istagram:hover{
+        background:linear-gradient(#a91e7f,#ce4524,#9227b8)
+    }
+ table tr td{padding:10px;}
+ .star-icon i{
+     color:orangered;
+     padding:0px 5px
+}
+  /** -------------------------------------------------
+           ------------tutorials section start--------
+  ---------------------------------------------------**/
+ #tutorials{
+     padding:4% 10%;
+     background: #95aa95;
+    }
+    .card{
+        overflow: hidden;
+        transition: .3s;
+    }
+ .card:hover{
+     transform:scale(1.05);
+}
+  /** -------------------------------------------------
+           ------------feedback and contact section start--------
+  ---------------------------------------------------**/
+#feedback{
+    padding-bottom: 50px;
+    background: rgb(43, 41, 41);
+}
+#feedback .carousel-item img{
+    max-height: 570px;
+}
+#contact{
+    background:navajowhite;
+    padding:4% 10%;
+}
+.form-group label{margin:0;padding:0;font-weight:bold;}
+footer{
+    padding:2% 10%;
+    background:black;
+    color:white;
+}
+.youtube:hover{background: rgb(145, 3, 3);}
